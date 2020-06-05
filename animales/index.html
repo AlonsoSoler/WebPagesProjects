@@ -1,0 +1,40 @@
+<html>
+<head>
+<script type="text/javascript" src="codigo.js"></script>
+<link rel=StyleSheet href="estilo.css" type="text/css">
+</head>
+<h1>Juego del arcoiris</h1>
+  <div id="imagen"></div>
+    <body onload="dibujo();">
+	   <table border="1" id="tabla">
+	     <tr>
+		  <td> <input type="button" class="circuloamarillo" onclick="corregir(6);" id="amarillo"/> </td>
+	      <td> <input type="button" class="circulorojo" onclick="corregir(8);" id="rojo" /> </td>
+		  <td> <input type="button" class="circuloblanco" onclick="corregir(3);" id="blanco" /></td>
+		 <td> <input type="button" class="circuloazul" onclick="corregir(1);" id="azul"/></td>
+		 <td> <input type="button" class="circulomarron" onclick="corregir(2);" id="marron" /></td>
+		 <td> <input type="button" class="circulonegro" onclick="corregir(9);" id="negro" /></td>
+		 <td> <input type="button" class="circulogris" onclick="corregir(5);" id="gris"/></td>
+		 <td> <input type="button" class="circuloverde" onclick="corregir(7);" id="verde" /></td>
+		 <td> <input type="button" class="circulorosa" onclick="corregir(4);" id="rosa" /></td>
+		 <td> <input type="button" class="circulolila" onclick="corregir(10);" id="lila"/></td>
+		 </tr>
+		 
+		 </table>
+		 <audio id="correcto" src="correcto.mp3"></audio>
+         <audio id="incorrecto" src="incorrecto.mp3"></audio>
+
+		 <table border="1" id="tabla1">
+	  <tr>
+	  <th>Aciertos</th>
+	  <th>Errores</th>
+	   </tr>
+	   <tr>
+	   <td id="aciertos">...</td>
+       <td id="errores">...</td>
+	   </tr>
+	   </table>
+	   <br/>
+	   <input type="button" id=empezar value="Empezar otra vez" onclick="location.reload();" />
+	   </body>
+</html>

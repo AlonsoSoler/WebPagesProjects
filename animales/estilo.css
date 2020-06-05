@@ -1,0 +1,103 @@
+.circuloamarillo {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: yellow;
+}
+.circulorojo {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: red;
+}
+.circuloblanco {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: white;
+}
+.circuloazul {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: blue;
+}
+.circulomarron {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: brown;
+}
+.circulonegro {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: black;
+}
+.circulogris {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: grey;
+}
+.circuloverde {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: green;
+}
+.circulorosa {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: pink;
+}
+.circulolila {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: purple;
+}
+body{
+text-align: center;
+background-image: url("chico.png");
+background-repeat: no-repeat;
+background-position: left;
+
+}
+
+h1{
+text-decoration: underline;
+text-shadow: 3px 2px grey;
+font-size: 40px;
+}
+
+#tabla{
+margin-left:400px;
+}
+#tabla1{
+margin-top:30px;
+margin-left:600px;
+text-align: center;
+font-size:20px;
+}
